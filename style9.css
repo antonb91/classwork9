@@ -1,0 +1,54 @@
+.container {
+  width: 1500px;
+  height: 200px;
+  background-color: orange;
+}
+.container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 45px;
+}
+.container3 {
+  margin-top: 10px;
+  width: 470px;
+  height: 200px;
+  background-color: orange;
+}
+.container4 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 45px;
+}
+.container5 {
+  margin-top: 10px;
+  width: 470px;
+  height: 100px;
+  background-color: orange;
+}
+.container6 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 45px;
+}
+.container7 {
+  margin-top: 10px;
+  width: 470px;
+  height: 50px;
+  background-color: orange;
+}
+.container8 {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 45px;
+}
+.container9 {
+  margin-top: 10px;
+  width: 470px;
+  height: 20px;
+  background-color: orange;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
